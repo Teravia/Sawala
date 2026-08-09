@@ -1,0 +1,14 @@
+/* Design tokens: light/white background, purple accent.
+   See /docs/REFACTOR.md Phase 11 for UI direction. */
+
+:root {
+  --color-background: #ffffff;
+  --color-foreground: #18181b;
+  --color-accent: #7c3aed;
+  --color-border: #e4e4e7;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
